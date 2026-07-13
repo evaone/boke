@@ -1,0 +1,19 @@
+baseURL = "https://evaone.github.io/boke/"
+languageCode = "zh-cn"
+title = "Boke"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+  author = "ljbot"
+  description = "个人博客"
+
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 2
